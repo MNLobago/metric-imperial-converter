@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: #6943fe;
+    color: white;
+    padding: 30px;
+}
+
+.input-container {
+    display: inline-block; /* Keeps input and button aligned */
+    width: 200px; /* Adjust width as needed */
+}
+
+input {
+    padding: 10px;
+    background: #6943fe; /* Match the background color of the hero section */
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 100%; /* Make input field fill the container */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    text-align: center; /* Center the text inside the input field */
+}
+
+button {
+    padding: 10px;
+    margin-top: 5px; /* Add space above the button */
+    background: white;
+    color: #6943fe;
+    border: none;
+    border-radius: 4px;
+    width: 100%; /* Make button fill the container */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f4f4f4;
+}
+
+.main {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+.section {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+}
